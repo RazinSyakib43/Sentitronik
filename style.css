@@ -1,0 +1,568 @@
+/*Smooth Scrolling*/
+html{
+    scroll-behavior: smooth;
+}
+/*Smooth Scrolling*/
+
+h1 {
+    font-weight: 900;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    font-family: 'Poppins', sans-serif;
+}
+
+ol{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar */
+.navbar {
+    background-color: #89c4e2;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #fbfbfb;
+    font-size: 18px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #1f293b;
+}
+
+.navbar .container-fluid img:hover {
+    filter: brightness(80%);
+}
+
+.navbar .container-fluid button {
+    border-radius: 0%;
+    border: none;
+    color: #FEC89A;
+
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu a {
+    color: #1f293b;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+#home .container-fluid {
+    background-image: url('img/shinjuku.jpg');
+    background-size: 100%;
+    height: 755px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#home .container-fluid .btn {
+    background: linear-gradient(to right, #018076, #03bfb5);
+    border-radius: 0%;
+    color: white;
+}
+
+.content-box {
+    padding-top: 10%;
+}
+
+.content-box h1 {
+    color: white;
+}
+
+
+.home h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.member {
+    background-color: #eff5f9;
+}
+
+#news .carousel-item {
+    height: auto;
+}
+
+#news .carousel-item img {
+    margin-top: 50px;
+    opacity: unset;
+    height: 600px;
+}
+
+#news .carousel-item h5 {
+    color: white;
+}
+
+/*about*/
+
+#about {
+    padding-top: 6rem;
+}
+
+#about img{
+    width: 390px;
+	height: 390px;
+    margin-top: 60px;
+}
+
+#about p{
+    text-align:justify;
+}
+
+/*about*/
+
+/*
+customer service 
+*/
+#infopengiriman {
+    padding-top: 100px;
+}
+
+#infopembayaran {
+    padding-top: 50px
+}
+
+/* end */
+
+#productcategories {
+    padding-top: 6rem;
+    background-color: #eff5f9;
+}
+
+
+/*procces*/
+#process {
+    padding: 8rem 0 4rem 0;
+    background-color: #e2f3fb;
+}
+
+.ikon-procces i {
+    color: #acdcec;
+    padding-bottom: 18px;
+}
+
+.ikon-procces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ikon-procces h2 {
+    font-weight: 570;
+    font-size: 26px;
+}
+
+.ikon-procces h5 {
+    font-size: 19px;
+    font-weight: 370;
+    color: #746F6F;
+    padding-bottom: 4rem;
+}
+
+
+#contact {
+    padding-bottom: 30px;
+    padding: 50px;
+    padding-top: 80px;
+    background-color: #e3f4fc;
+}
+
+#contact i {
+    padding: 20px;
+    color: #746F6F;
+}
+
+#contact i:hover {
+    color: #9c8c84;
+}
+
+
+.footer-catalog a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-catalog a:hover {
+    background-color: #e0cec7;
+    padding: 3px 3px;
+}
+
+.footer-catalog span {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-catalog span:hover {
+    background-color: #d0b2a7;
+    padding: 3px 3px;
+}
+
+.footer-catalog li {
+    padding-bottom: 10px;
+}
+
+.footer-catalog h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.footer-catalog img {
+    width: 30%;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.footer-catalog {
+    width: 520px;
+    padding-top: 15px;
+}
+
+footer .catalog {
+    background-color: #03bfb5;
+    padding: 20px;
+    position: relative;
+}
+
+footer {
+    background-color: #018076;
+}
+
+footer .copyright {
+    background-color: #018076;
+    padding: 20px;
+    position: relative;
+}
+
+footer .copyright h5 {
+    color: #eff5f9;
+    font-size: 15px;
+}
+
+footer .copyright img {
+    width: 30%;
+}
+
+/*FAQ, Info Pembayaran, Info Pengiriman, cara belanja*/
+
+
+#faq  {
+    background-color: #dbe5e6;
+    height: 100%;
+    padding: 50px 0;
+    padding-top: 90px;
+}
+
+#faq .accordion .card {
+    border-radius: 0;
+    background: none;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+#faq .accordion .card .card-header {
+    background: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+}
+
+
+#faq .accordion .card-header .btn {
+    color: #0c7f90;
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#faq .accordion .card-header button {
+    text-decoration: none;
+}
+
+#faq .accordion .card-header i {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 15px;
+    right: 1rem;
+
+}
+
+#faq .accordion .card-body {
+    color: #666;
+}
+
+/*FAQ, Info Pembayaran, Info Pengiriman, cara belanja*/
+
+#metode {
+    background-color: #dbe5e6;
+}
+
+#metode img {
+    width: 6%;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#metode h5 {
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* product.html*/
+#menuproduct button a {
+    text-decoration: none;
+}
+
+#mesincuci{
+    padding-top: 100px;
+}
+
+#mesincuci .card-body {
+    background-color: #dbe5e6;
+}
+
+#pengering {
+    padding-top: 50px;
+}
+
+#pengering .card-body {
+    background-color: #dbe5e6;
+}
+
+#setrika{
+    padding-top: 50px;
+}
+
+
+#setrika .card-body {
+    background-color: #dbe5e6;
+}
+
+
+#timbangan {
+    padding-top: 50px;
+}
+
+#timbangan .card-body {
+    background-color: #dbe5e6;
+}
+
+#hanger{
+    padding-top: 50px;
+}
+
+#hanger .card-body {
+    background-color: #dbe5e6;
+}
+
+#jemuran{
+    padding-top: 50px;
+}
+
+#jemuran .card-body {
+    background-color: #dbe5e6;
+}
+
+#keranjang{
+    padding-top: 50px;
+}
+
+#keranjang .card-body {
+    background-color: #dbe5e6;
+}
+
+#alattagging{
+    padding-top: 50px;
+}
+
+#alattagging .card-body {
+    background-color: #dbe5e6;
+}
+
+#plastikkemasan{
+    padding-top: 50px;
+}
+
+#plastikkemasan .card-body {
+    background-color: #dbe5e6;
+}
+
+#deterjen{
+    padding-top: 50px;
+}
+
+#deterjen .card-body {
+    background-color: #dbe5e6;
+}
+
+#pewangi{
+    padding-top: 50px;
+}
+
+#pewangi .card-body {
+    background-color: #dbe5e6;
+}
+
+#taggun{
+    padding-top: 50px;
+}
+
+#taggun .card-body {
+    background-color: #dbe5e6;
+}
+
+#plastik{
+    padding-top: 50px;
+}
+
+#plastik .card-body {
+    background-color: #dbe5e6;
+}
+
+/*Top Seller*/
+#topseller{
+    background-color: #c2e4f0; 
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#topseller .container {
+    background-color: #4a77b7;
+    border-radius: 25px;
+}
+
+#topseller .carousel-inner {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#topseller .carousel-inner h6 {
+    color: #999;
+    font-size: 15px;
+}
+
+#topseller .carousel-indicators {
+    left: 0;
+    top: auto;
+}
+
+#topseller .carousel-indicators li {
+    background: #000;
+    border-radius: 30%;
+    width: 2%;
+    height: 1%;
+}
+
+#topseller .carousel-indicators .active {
+    background: #fff;
+}
+
+#topseller .card {
+    height: 100%;
+}
+
+/*Testimoni (home.html)*/
+#testimoni{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#testimoni h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px;
+}
+
+#testimoni .carousel-item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+}
+
+#testimoni .carousel .testimoni {
+    padding: 30px;
+}
+
+#testimoni .carousel .overview {
+    font-style: italic;
+}
+
+#testimoni .carousel .overview b {
+    text-transform: uppercase;
+    color: #db584e;
+}
+
+#testimoni .carousel-control-prev i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: #000;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+#testimoni .carousel-control-next i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: #000;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+#testimoni .icon-quote i {
+    margin: 20px;
+    font-size: 68px;
+    line-height: 42px;
+    display: inline-block;
+}
+
+/*Testimoni (home.html)*/
+
+#allproduct {
+    background-color: #e2f3fb;
+}
+
+#home{
+    padding-top: 74px;
+}
